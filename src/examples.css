@@ -61,6 +61,7 @@ abbr,acronym {
 
 /* --------------------------------------- */
 body {
+	background-color: #111;
 	font-family: Abel;
 	color: #fff;
 }
@@ -94,6 +95,12 @@ p {
 	background-position-y: top;
 }
 
+#section4 {
+	background-image: url(images/banner2.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
 #section1 h1, #section1 h2 {
 	text-align: left;
 }
@@ -120,10 +127,11 @@ p {
 
 #profile-text {
 	text-align: justify;
+	margin-top: 1em;
 }
 
 .icons {
-	width: 8em;
-	height: 8em;
+	width: 6em;
+	height: 6em;
 	margin-bottom: 1em;
 }
