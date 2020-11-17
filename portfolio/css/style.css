@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Abel;
-	src: url(fonts/abel.ttf);
+	src: url(../fonts/abel.ttf);
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -58,10 +58,13 @@ abbr,acronym {
 }
 
 /* --------------------------------------- */
-body {
-	background-color: #111;
+* {
 	font-family: Abel;
 	color: #fff;
+}
+
+body {
+	background-color: #111;
 }
 
 h1 {
@@ -152,4 +155,29 @@ p {
 .testeimg {
 	width: 30em;
 	height: 30em;
+}
+
+.card-text {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	text-align: justify;
+}
+
+.project-btn {
+	width: 8em;
+	padding: 1em;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.project-btn:hover {
+	color: #fff;
+}
+
+.card {
+	background-color: #111;
+	padding: 1em;
+	width: 25em;
+	border-radius: 15px;
+	box-shadow: 5px 10px 25px #111;
 }
