@@ -81,13 +81,13 @@ p {
 }
 
 #section1 {
-	background-image: url(images/banner.jpg);
+	background-image: url(../img/banner.jpg);
 	background-size: 100% auto;
 	background-position-y: top;
 }
 
 #section4 {
-	background-image: url(images/banner2.jpg);
+	background-image: url(../img/banner2.jpg);
 	background-size: 100% auto;
 	background-attachment: fixed;
 }
